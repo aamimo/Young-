@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Young City Foundation — Inspiring Young Lives Through Dance</title>
   <meta name="description" content="A teen-led movement in Nairobi empowering 100+ kids through dance, mentorship and education." />
-  <link rel="icon" href="assets/logo.png" type="image/png" />
+  <link rel="icon" href="logo.png" type="image/png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
@@ -30,12 +30,7 @@
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body {
-      font-family: "Poppins", sans-serif;
-      color: var(--fg);
-      background: var(--bg);
-      line-height: 1.5;
-    }
+    body { font-family: "Poppins", sans-serif; color: var(--fg); background: var(--bg); line-height: 1.5; }
     img { max-width: 100%; display: block; }
     a { color: inherit; text-decoration: none; }
     button { font: inherit; cursor: pointer; border: none; background: none; }
@@ -43,12 +38,7 @@
     .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
 
     /* Header */
-    .header {
-      position: sticky; top: 0; z-index: 50;
-      background: rgba(251, 252, 255, 0.85);
-      backdrop-filter: blur(12px);
-      border-bottom: 1px solid var(--border);
-    }
+    .header { position: sticky; top: 0; z-index: 50; background: rgba(251, 252, 255, 0.85); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); }
     .header-inner { display: flex; align-items: center; justify-content: space-between; height: 80px; }
     .brand { display: flex; align-items: center; gap: 12px; }
     .brand img { height: 48px; width: 48px; object-fit: contain; }
@@ -83,11 +73,7 @@
     .hero .actions { margin-top: 40px; display: flex; gap: 16px; justify-content: center; }
 
     /* Stats */
-    .stats {
-      background: var(--card); border: 1px solid var(--border); border-radius: 24px;
-      padding: 32px; margin-top: -48px; position: relative; z-index: 10;
-      display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; box-shadow: var(--shadow-soft);
-    }
+    .stats { background: var(--card); border: 1px solid var(--border); border-radius: 24px; padding: 32px; margin-top: -48px; position: relative; z-index: 10; display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; box-shadow: var(--shadow-soft); }
     .stat { text-align: center; }
     .stat-num { font-size: 32px; font-weight: 800; color: var(--brand-blue-deep); }
     .stat-label { font-size: 13px; color: var(--muted); text-transform: uppercase; letter-spacing: 1px; }
@@ -106,10 +92,7 @@
     .masonry figure:hover img { transform: scale(1.05); }
 
     /* About/CEO */
-    .ceo-card { 
-      display: grid; grid-template-columns: 1fr 1.2fr; background: #fff; 
-      border: 1px solid var(--border); border-radius: 24px; overflow: hidden; margin-top: 50px;
-    }
+    .ceo-card { display: grid; grid-template-columns: 1fr 1.2fr; background: #fff; border: 1px solid var(--border); border-radius: 24px; overflow: hidden; margin-top: 50px; }
     .ceo-card img { height: 100%; width: 100%; object-fit: cover; }
     .ceo-info { padding: 40px; }
 
@@ -132,7 +115,7 @@
 <header class="header">
   <div class="container header-inner">
     <a href="#home" class="brand" data-link="home">
-      <img src="assets/logo.png" alt="Logo" />
+      <img src="logo.png" alt="Logo" />
       <div class="brand-text"><strong>Young City</strong><span>Foundation</span></div>
     </a>
     <nav class="nav" id="nav">
@@ -146,11 +129,10 @@
   </div>
 </header>
 
-<!-- HOME PAGE -->
 <section class="page active" id="page-home">
   <div class="hero">
     <div class="hero-bg"></div>
-    <div class="hero-img" style="background-image:url('assets/photo3.jpg')"></div>
+    <div class="hero-img" style="background-image:url('photo3.jpg')"></div>
     <div class="container hero-inner">
       <h1>We Dance to Inspire, <span class="accent">Not to Compete.</span></h1>
       <p>Young City Foundation is a movement empowering 100+ children in Nairobi through dance, discipline, and community.</p>
@@ -176,20 +158,18 @@
       <p style="color:var(--muted); font-size: 18px; margin-top: 15px;">What began in 2020 has grown into a family. We provide a safe haven in Kibera and Kabiria where creativity meets character development.</p>
     </div>
     <div class="photo-grid">
-      <img src="assets/mentorship.png" alt="Mentorship" />
-      <img src="assets/meal.png" alt="Community Meal" />
+      <img src="mentorship.png" alt="Mentorship" />
+      <img src="meal1.png" alt="Community Meal" />
     </div>
   </div>
 </section>
 
-<!-- ABOUT PAGE -->
 <section class="page" id="page-about">
   <div class="container section">
     <h1>Our Story & Leadership</h1>
     <p style="max-width: 700px; margin-top: 20px; color: var(--muted);">Founded by Neville Nyamongo, Young City Foundation is proof that age is no barrier to leadership. We are teen-led and community-focused.</p>
-    
     <div class="ceo-card">
-      <img src="assets/ceo.png" alt="Neville Nyamongo" />
+      <img src="ceo.png" alt="Neville Nyamongo" />
       <div class="ceo-info">
         <span style="color:var(--brand-red); font-weight: 700; font-size: 12px; text-transform: uppercase;">Founder & CEO</span>
         <h2 style="font-size: 32px; margin-bottom: 15px;">Neville Nyamongo</h2>
@@ -200,24 +180,22 @@
   </div>
 </section>
 
-<!-- GALLERY PAGE -->
 <section class="page" id="page-gallery">
   <div class="container section">
     <h1>Moments that Move Us</h1>
     <div class="masonry">
-      <figure><img src="assets/portrait1.png" alt="Member Portrait" /></figure>
-      <figure><img src="assets/sports1.png" alt="Rugby Session" /></figure>
-      <figure><img src="assets/mentorship.png" alt="Mentorship" /></figure>
-      <figure><img src="assets/portrait2.png" alt="Youth Member" /></figure>
-      <figure><img src="assets/sports2.png" alt="Soccer Practice" /></figure>
-      <figure><img src="assets/photo3.jpg" alt="Crew Photo" /></figure>
-      <figure><img src="assets/meal.png" alt="Sharing Food" /></figure>
-      <figure><img src="assets/ceo.png" alt="Neville Portrait" /></figure>
+      <figure><img src="portrait1.png" alt="Member Portrait" /></figure>
+      <figure><img src="sport1.png" alt="Rugby Session" /></figure>
+      <figure><img src="mentorship.png" alt="Mentorship" /></figure>
+      <figure><img src="portrait2.png" alt="Youth Member" /></figure>
+      <figure><img src="sport2.png" alt="Soccer Practice" /></figure>
+      <figure><img src="photo3.jpg" alt="Crew Photo" /></figure>
+      <figure><img src="meal1.png" alt="Sharing Food" /></figure>
+      <figure><img src="ceo.png" alt="Neville Portrait" /></figure>
     </div>
   </div>
 </section>
 
-<!-- CONTACT PAGE -->
 <section class="page" id="page-contact">
   <div class="container section">
     <div class="two-col">
@@ -241,7 +219,7 @@
   <div class="container">
     <div class="footer-grid">
       <div>
-        <div class="footer-logo"><img src="assets/logo.png" alt="" /> <strong>Young City</strong></div>
+        <div class="footer-logo"><img src="logo.png" alt="" /> <strong>Young City</strong></div>
         <p style="opacity: 0.7; font-size: 14px;">Inspiring the next generation through dance, faith, and family.</p>
       </div>
       <div>
@@ -260,7 +238,6 @@
 </footer>
 
 <script>
-  // Simple Router
   const links = document.querySelectorAll('[data-link]');
   const pages = document.querySelectorAll('.page');
   const nav = document.getElementById('nav');
@@ -269,11 +246,11 @@
   function navigate(id) {
     pages.forEach(p => p.classList.remove('active'));
     links.forEach(l => l.classList.remove('active'));
-    
-    document.getElementById('page-' + id).classList.add('active');
+    const target = document.getElementById('page-' + id);
+    if(target) target.classList.add('active');
     document.querySelector(`[data-link="${id}"]`)?.classList.add('active');
     window.scrollTo(0, 0);
-    nav.classList.remove('open');
+    nav.style.display = 'flex';
   }
 
   links.forEach(link => {
@@ -287,20 +264,11 @@
 
   toggle.addEventListener('click', () => {
     nav.style.display = nav.style.display === 'flex' ? 'none' : 'flex';
-    nav.style.flexDirection = 'column';
-    nav.style.position = 'absolute';
-    nav.style.top = '80px';
-    nav.style.left = '0';
-    nav.style.width = '100%';
-    nav.style.background = '#fff';
-    nav.style.padding = '20px';
   });
 
-  // Load from hash
   if(window.location.hash) {
     navigate(window.location.hash.substring(1));
   }
 </script>
-
 </body>
 </html>
